@@ -17,3 +17,11 @@ alias k="kubectl"
 
 export EDITOR="code --wait"
 __EOF__
+
+cat >>~/.bashrc <<__EOF__
+alias ll='ls -alh'
+alias ..="cd .."
+alias k="kubectl"
+
+export EDITOR="code --wait"
+__EOF__
