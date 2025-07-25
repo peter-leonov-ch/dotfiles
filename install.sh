@@ -19,9 +19,12 @@ export EDITOR="code --wait"
 __EOF__
 
 cat >>~/.bashrc <<__EOF__
+
 alias ll='ls -alh'
 alias ..="cd .."
 alias k="kubectl"
 
 export EDITOR="code --wait"
+
+export PS1="\[\033[01;32m\]\$\[\033[00m\] "
 __EOF__
